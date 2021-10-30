@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #f1dede;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #f1dede;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #f1dede;
     text-shadow: none;
 }
 
@@ -97,14 +97,15 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #f1dede;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
@@ -120,10 +121,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #4e503f;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.4em;
+  background-color: #f1dede;
   height: 300px;
   width: 30%;
 }
@@ -210,6 +211,16 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   .div-1, .div-2, .div-3 {
+       border: 6px solid #80727b;
+       border-radius: 5px;
+       padding-top: 10px;
+       padding-right: 10px;
+       padding-bottom: 10px;
+       padding-left: 10px;
+
+   }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),

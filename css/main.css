@@ -110,6 +110,41 @@ body {
 }
 
 .wrapper {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 700;
+}
+
+.greeting {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: #4e503f;
+  line-height: 1.5em;
+  font-size: 1.4em;
+  background-color: #f1dede;
+  height: 100px;
+  width: 100%;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+ }
+
+.content {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #4e503f;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    background-color: #f1dede;
+    height: 150px;
+    width: 100%; 
+}
+.wrapper3 {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
